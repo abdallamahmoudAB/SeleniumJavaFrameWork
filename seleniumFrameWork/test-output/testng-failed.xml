@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <classes>
+      <class name="seleniumFrameWork.Test1_GoogleSearch_TestNGdemo">
+        <methods>
+          <include name="googlesearch"/>
+          <include name="teardontest"/>
+          <include name="setuptest"/>
+        </methods>
+      </class> <!-- seleniumFrameWork.Test1_GoogleSearch_TestNGdemo -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
